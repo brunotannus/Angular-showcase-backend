@@ -1,4 +1,4 @@
-# relieftest-backend
+# relieftest
 
 1. Clone the 2 repositories (relieftest-backend and relieftest-frontend) into a folder
 
