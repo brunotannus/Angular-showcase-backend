@@ -7,7 +7,7 @@ const history = [];
 const bookmarks = [];
 
 app.use(bodyParser.json());
-app.use(express.static(process.cwd()+"/../front-end/dist/front-end/"));
+app.use(express.static(process.cwd()+"/../relieftest-frontend/dist/front-end/"));
 
 app.get('/api/history', (req, res) => {
   res.json(history);
@@ -40,7 +40,7 @@ app.post('/api/bookmark', (req, res) => {
 });
 
 app.get('/', (req,res) => {
-  res.sendFile(process.cwd()+"/../front-end/dist/front-end/index.html")
+  res.sendFile(process.cwd()+"/../relieftest-frontend/dist/front-end/index.html")
 });
 
 
