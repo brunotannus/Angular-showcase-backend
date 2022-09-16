@@ -1,0 +1,29 @@
+{
+  "name": "relieftest-backend",
+  "version": "1.0.0",
+  "description": "node server",
+  "scripts": {
+    "start": "ng serve",
+    "dev": "nodemon ./server.js localhost 3080",
+    "test": "ng test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbachi/relieftest-backend.git"
+  },
+  "author": "Bhargav Bachina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbachi/relieftest-backend/issues"
+  },
+  "homepage": "https://github.com/bbachi/relieftest-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
+
